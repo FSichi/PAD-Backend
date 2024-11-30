@@ -1,10 +1,10 @@
 import express, { json, Request, RequestHandler, Response } from 'express';
 import cors from 'cors';
-import { notFoundURL} from './src/middlewares/index.ts';
-import { loadRouters } from './src/routes/index.ts';
-import { envVars } from './src/constants/env.constants.ts';
+import { notFoundURL} from './middlewares/index.ts';
+import { loadRouters } from './/routes/index.ts';
+import { envVars } from './constants/env.constants.ts';
 import swaggerUi from 'swagger-ui-express';
-import { swaggerSpecs } from './src/swagger.ts';
+import { swaggerSpecs } from './/swagger.ts';
 
 const app = express();
 
