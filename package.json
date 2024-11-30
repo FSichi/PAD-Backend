@@ -8,8 +8,8 @@
   "author": "FacuSichi",
   "keywords": [],
   "scripts": {
-    "dev": "nodemon --exec ts-node src/index.ts --project ./tsconfig.json",
-    "start": "node build/index.js",
+    "dev": "nodemon --exec ts-node api/index.ts --project ./tsconfig.json",
+    "start": "node api/index.ts",
     "tsc": "tsc"
   },
   "devDependencies": {

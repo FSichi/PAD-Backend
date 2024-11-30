@@ -1,15 +1,1 @@
-{
-    "builds": [
-        {
-            "src": "./src/index.ts",
-            "use": "@vercel/node",
-            "config": { "zeroConfig": true }
-        }
-    ],
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "/"
-        }
-    ]
-}
+{ "version": 2, "rewrites": [{ "source": "/(.*)", "destination": "/api" }] }
